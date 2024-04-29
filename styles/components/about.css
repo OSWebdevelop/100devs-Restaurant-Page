@@ -1,0 +1,25 @@
+.about.container{
+  background-image: url(/images/about-bg-full.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: auto;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 50rem;
+}
+.about.container p{
+  max-width: 65ch;
+}
+.about__info-2{
+  margin: 1.8rem 0;
+}
+.about__form-submit input[value="Discover Menu"]{
+  cursor: pointer;
+  background-color: #ff8800;
+  color: #fff;
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 8px;
+  padding: 0.775rem 1.5em;
+}

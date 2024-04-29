@@ -1,0 +1,45 @@
+:root{
+  --primary-bright-orange:#ff8800;
+  --primary-fade-orange:#ffaa4d;
+
+  --neutral-deep-blue:#0d0d25;
+  --neutral-blue-gray:#505161;
+  --neutral-light-gray:#dfdfdf;
+  --neutral-white:#f4f2f2;
+
+  --font-size-large: 3.5rem;
+  --font-size-big: 2.5rem;
+  --font-size-mid: 1.875rem;
+  --font-size-normal: 1.3rem;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+*{
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  color: inherit;
+}
+img,svg{
+  max-width: 100%;
+  width: 30px;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  color: var(--neutral-blue-gray);
+  height: 100vh;
+}
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+}
